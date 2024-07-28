@@ -10,9 +10,6 @@ export default function Header() {
             <Link href="/">Earnup Pokemon</Link>
           </Typography>
           <Button color="inherit">
-            <Link href="/pokemon">Pokemon</Link>
-          </Button>
-          <Button color="inherit">
             <Link href="/users/new">Register</Link>
           </Button>
         </Toolbar>

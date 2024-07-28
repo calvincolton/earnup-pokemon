@@ -20,7 +20,7 @@ model User {
 model UserPokemon {
   id        Int  @id @default(autoincrement())
   userId    Int
-  pokemonId Int
+  pokemon String
   user      User @relation(fields: [userId], references: [id])
 
   @@index([userId])
